@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor{
+    flex-direction: row;
+    display: flex;
+    margin-top: 120px;
+}
+.contenedor div{
+    width: 200px;
+    height: 200px;
+}
+.naranja{
+    background-color: orange;
+}
+.amarillo{
+    background-color: yellow; 
+    flex-grow: 2;
+}
+.azulcla{
+    background-color: deepskyblue;
+    flex-shrink: 15;
+}
+.a{
+    background-color: dodgerblue;
+    flex-grow: 1;
+}
+.z{
+    background-color: blue;
+}
+.u{
+    background-color: darkblue;
+}
+.enlaces{
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+}
+a:link{
+    color: greenyellow;
+}
+a:hover{
+    color: red;
+}
+a:visit{
+    color: purple;
+}
+.mayus{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
