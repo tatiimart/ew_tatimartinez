@@ -1,0 +1,17 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    border: 1px gray solid;
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+}
+.nombres{
+    background-color: pink;
+    margin: 15px;
+    padding: 5px;
+}
