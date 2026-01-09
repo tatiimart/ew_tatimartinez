@@ -1,0 +1,41 @@
+.contenedor{
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 200px;
+}
+
+.contenedor div{
+    font-family: "story Script";
+    margin-left: 20px;
+    flex-flow: row wrap;
+
+}
+
+.caja{
+    text-align: center;
+    font-family: "roboto";
+    font-size: large;
+    border: 2px orange solid;
+    background-color: yellow;
+    width: 100px;
+    height: 65px;
+    padding: 15px;
+}
+.contenedordos{
+    margin-top: 20px;
+    margin-left: 625px;
+}
+.pomelos:hover{
+    filter: opacity(50%);
+}
+.limones:hover{
+    filter: invert(100%);
+}
+.naranjas:hover{
+    filter:brightness(30%);
+}
+.bermagota:hover{
+    filter: contrast(20%);
+}
