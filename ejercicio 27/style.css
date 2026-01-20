@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    font-family: "chewy";
+    text-align: center;
+    margin-top: 10px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+}
+.c1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    font-family: "chewy";
+}
+.c2{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    font-family: "chewy";
+}
+.c3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    color: black;
+    font-family: "chewy";
+}
+.c4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    font-family: "chewy";
+}
+.e{
+    background-color: red;
+    width: 170px;
+    height: 50px;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+h3{
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+    font-size: 25px;
+}
+iframe{
+    padding: 10px;
+    border: solid 3px orangered;
+    width: 600px;
+    height: 450px;
+}
+.mapa{
+    border: solid 3px orangered;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30%;
+}
+.c1:hover{
+    background-color: white;
+    border: solid 3px blue;
+    transform: translate(-20px, -20px);
+}
+.c2:hover{
+    background-color: white;
+    border: solid 3px palevioletred;
+    transform: translate(20px, -20px);
+}
+.c3:hover{
+    color: white;
+    background-color: white;
+    border: solid 3px yellow;
+    transform: translate(-20px, 20px);
+}
+.c4:hover{
+    background-color: white;
+    border: solid 3px green;
+    transform: translate(20px, 20px);
+}

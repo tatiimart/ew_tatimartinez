@@ -1,0 +1,45 @@
+.titulo{
+    font-family: "Dancing Script";
+    text-align: center;
+    color: rgb(0, 95, 0);
+}
+.restaurantes{
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+}
+.fiestas{
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+}
+.lugares{
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+}
+img{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.contenedor{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    text-align: center;
+}
+a:hover{
+    color: green;
+}
+.volver{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
