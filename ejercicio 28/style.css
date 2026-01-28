@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+h1{
+    font-family: "new-astro", sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.banner{
+    width: 100%;
+}
+#texto{
+    margin-top: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: "alight-slab", sans-serif;
+    font-size: 30px;
+}
+.e{
+    text-decoration: none;
+}
+h4{
+    font-family: "alight-slab", sans-serif;
+    font-size: large;
+    color: white;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fe4934;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+section{
+    margin-top: 40px;
+    background-image: url(img/Fondo.webp);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+section img{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+
+}
+footer{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h3{
+    font-family: "alight-slab", sans-serif;
+    color:  #fe4934;
+    font-size: 30px;
+    margin-top: 20px;
+}
