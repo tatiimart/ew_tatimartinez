@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Roca";
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h5{
+    font-family: "erotique", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+section div{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.españa{
+    border: solid 8px red;
+}
+.dos{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+.dos:hover{
+    background-image: url(img/gilda2.webp);
+    background-size: cover;
+}
+footer{
+    border: solid 3px red;
+    margin: 30px;
+}
+p{
+    background-color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+article{
+    text-align: center;
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+@media (orientation: landscape) {
+    section{
+        flex-direction: row;
+    }
+    section div{
+        background-color: yellow;
+    }
+    article{
+        display: none;
+    }
+}
+@media (orientation: portrait) {
+    section{
+        flex-direction: column;
+    }
+    section div, .dos{
+        background-color: olive;
+    }
+    footer{
+        display: none;
+    }
+}
