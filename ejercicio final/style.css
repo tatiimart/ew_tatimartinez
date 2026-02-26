@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/fondoho.jpg);
+    background-size: cover;
+    width: 100%;
+}
+nav{
+    background-color: #344C3D;
+    filter: opacity(75%);
+    margin-top: 4vh;
+}
+ul{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    padding: 0.25vw;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+}
+h6{
+    color: white;
+    font-size: medium;
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 150px;
+    color: white;
+    padding-left: 3vw;
+    padding-top: 20vh;
+    text-align: left;
+    float: left;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    float: right;
+    padding-top: 40vh;
+}
+article{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+@media(orientation: portrait){
+    body{
+        background-image: url(img/fondov.png);
+        background-size: cover;
+    }
+    h1{
+        color: #344C3D;
+        padding-top: 0vh;
+    }
+    p{
+        color: white;
+        text-align: justify;
+        padding-top: 0vh;
+        background-color: #344C3D;
+        margin-top: 5vh;
+        padding: 5vw;
+        filter: opacity(70%);
+        justify-content: center;
+    }
+    section{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #dacdb1;
+    background-size: cover;
+}
+nav{
+    background-color: #344C3D;
+    filter: opacity(75%);
+    margin-top: 4vh;
+    width: 100vw;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    padding: 0.25vw;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(img/cafeteria\ copia.jpg);
+    background-size: cover;
+}
+header:hover{
+    filter: opacity(60%);
+}
+header strong{
+    color: #ab8059;
+}
+header p{
+    color: white;
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9vh;
+}
+h5{
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover{
+    color: #ab8059;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #8ea58c;
+    filter: opacity(75%);
+    margin-top: 10vh;
+    width: 100vw;
+}
+section div{
+    width: 50vw;
+}
+h6{
+    color: white;
+    font-size: medium;
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+section p{
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+.horario{
+    flex-direction: column;
+}
+.inicio{
+    color: #ab8059;
+}
+
+footer{
+    width: 100vw;
+    background-color: #8ea58c;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 2vh;
+}
+footer p{
+    font-family: "hoss-round-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (orientation: portrait){
+    header p, h5{
+        font-size: medium;
+    }
+    header strong{
+        color: #344C3D;
+    }
+}
