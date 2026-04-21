@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: "forager", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+}
+h4{
+    font-family: "forager", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    font-family: "forager", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 15vw;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    width: 80%;
+    border: solid 4px orange;
+    margin: 2vw auto;
+    padding: 4vw;
+}
+.enlace{
+    font-size: 2vw;
+}
+a p{
+    color: orange;
+}
+header:hover{
+    background-image: url(img/fondo\ \(1\).jpg);
+    background-size: contain;
+}
+section{
+    width: 80%;
+    background-color: orange;
+    margin: 2vw auto;
+    padding: 2vw;
+}
+footer{
+    width: 80%;
+    border: solid 4px orange;
+    margin: 2vw auto;
+    padding: 1vw;
+}
+.pie{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        color: orange;
+    }
+    .pie{
+        color:orange;
+    }
+}
