@@ -1,0 +1,17 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20vw 40vw 20vw;
+    background-color: cornflowerblue;
+    margin: 3vw;
+}
+.contenedor div{
+    border: solid 2px;
+    text-align: center;
+}
+.hj1{
+    grid-column: 1/3;
+}
+.hj2{
+    grid-row: 2/3;
+}
