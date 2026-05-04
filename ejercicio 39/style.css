@@ -1,0 +1,32 @@
+.container{
+    margin: 4vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "header header" "nav main" "footer footer";
+}
+.container header, nav, main, footer{
+    border: solid 2px blue;
+}
+header{
+    grid-area: header;
+    text-align: center;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+    padding: 1vw;
+}
+footer{
+    grid-area: footer;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+h1{
+    color: blue;
+}
