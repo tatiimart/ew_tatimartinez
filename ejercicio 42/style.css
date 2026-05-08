@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+h3{
+    font-size: 2vw;
+}
+.container{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto;
+    gap: 0.5vw;
+    text-align: center;
+    width: 96vw;
+    margin: auto;
+}
+.container div{
+    border: solid 0.15vw black;
+    background-color: aquamarine;
+    padding: 1vw;
+    align-items: center;
+}
+.item1{
+    display: grid;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.item1 div{
+    border: solid 0.15vw white;
+    color: white;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 1000px){
+    .container div{
+        background-color: cadetblue;
+    }
+    .item1 div{
+        background-color: blue;
+    }
+    .item1{
+        flex-direction: column;
+    }
+}
